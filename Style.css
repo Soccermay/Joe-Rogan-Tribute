@@ -301,7 +301,7 @@ li {
 
 /* Mobile Responsiveness */
 
-@media (min-width:600px) {
+@media (max-width:800px) {
     h1 {
         font-size: 42px;
     }
