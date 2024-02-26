@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root {
+    -moz-border-top-colors: antiquewhite;
+}
+
+/* CSS section */
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 370vh;
+}
+
+
+h1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#num1 {
+    background-color: #FFBE98;
+    height: 25vh;
+}
+
+#num1 > .heading > p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#num2 {
+    background-color: #FEECE2;
+    height: 100vh;
+}
+
+.Joe {
+    margin: 40px 229px;
+    border: 9px solid #f19191;
+    border-radius: 0.5rem;
+}
+
+#num2 {
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#num3 {
+    background-color: #B47B84;
+    height: 110vh;
+    margin-top: -19px;
+}
+
+#num3 > .H3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex > .flex1 {
+    background-color: #C7B7A3;
+    width: 25%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    box-shadow: 
+                2px 4px 9px grey,
+                3px 3px 9px lightcyan,
+                3px 4px 9px lavender;
+}
+
+.flex > .flex1 > h2 {
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+}
+
+.flex > .flex2 {
+    background-color: #C7B7A3;
+    width: 25%;
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 
+                2px 4px 9px grey,
+                3px 3px 9px lightcyan,
+                3px 4px 9px lavender;
+}
+
+.flex > .flex2 > h2 {
+    text-align: center;
+}
+
+#num3 > .video {
+    display: flex;
+    margin: auto;
+    border-radius: 1rem;
+    border: 7px solid #FEECE2;
+}
+
+/* Hero Section */
+
+#num4 {
+    background-image: linear-gradient(rgb(69, 69, 69), rgb(180, 180, 180));
+    height: 225vh;
+    margin-top: -35px;
+}
+
+#num4 > h4 {
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 35px;
+    font-family: "Nerko One", cursive;
+    color: #FEECE2;
+}
+
+.all-heroes > .span1 {
+    margin: 15px;
+    font-size: 27px;
+    color: #F5F5F5;
+}
+
+.all-heroes > .hero-1 {
+    margin: 45px;
+    transform: rotate(4deg);
+    height: 25%;
+}
+
+.hero-1 > .Gillis {
+    border: 7px solid #f19191;
+    border-radius: 1rem;
+    filter: brightness(80%);
+    opacity: 0.9;
+    float: left;
+}
+
+.hero-1 > .Shane {
+    line-height: 1.6;
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.hero-1 > .Shane > .Shane-Link {
+    text-decoration: none;
+    color: #ece5e5;
+    background-color: rgb(58, 74, 244);
+    padding: 3px;
+    border-radius: 0.7rem;
+}
+
+.hero-1 > .Shane > .Shane-Link:hover {
+    background-color: grey;
+    color: black;
+}
+
+/*---------------------------------------*/
+
+.all-heroes > .span2 {
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+    font-size: 27px;
+    color: #F5F5F5;
+}
+
+.all-heroes > .hero-2 {
+    margin: 50px;
+    transform: rotate(-4deg);
+    height: 23%;
+}
+
+.hero-2 > .Normand {
+    border: 7px solid #f19191;
+    border-radius: 1rem;
+    filter: brightness(120%);
+    opacity: 0.9;
+    float: right;
+}
+
+.hero-2 > .Mark {
+    line-height: 1.6;
+    float: right;
+    font-size: 25px;
+    font-weight: 400;
+    width: 40%;
+    margin: 20px;
+}
+
+.hero-2 > .Mark > .Mark-Link {
+    text-decoration: none;
+    color: #ece5e5;
+    background-color: rgb(58, 74, 244);
+    padding: 3px;
+    border-radius: 0.7rem;   
+}
+
+.hero-2 > .Mark > .Mark-Link:hover {
+    background-color: grey;
+    color: black;
+}
+
+/*--------------------------------------*/
+
+.all-heroes > .span3 {
+    margin: 15px;
+    font-size: 27px;
+    color: #F5F5F5;
+}
+
+.all-heroes > .hero-3 {
+    margin: 40px;
+    transform: rotate(-4deg);
+    height: 25%;
+}
+
+.hero-3 > .Shaffir {
+    border: 7px solid #f19191;
+    border-radius: 1rem;
+    filter: brightness(120%);
+    opacity: 0.9;
+    float: left;   
+}
+
+.hero-3 > .Ari {
+    line-height: 1.4;
+    width: 40%;
+    float: left;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 18px;
+}
+
+.hero-3 > .Ari > .Ari-Link {
+    text-decoration: none;
+    color: #ece5e5;
+    background-color: rgb(58, 74, 244);
+    padding: 3px;
+    border-radius: 0.7rem;
+}
+
+.hero-3 > .Ari > .Ari-Link:hover {
+    background-color: grey;
+    color: #000;
+}
+
+/* Footer Section */
+
+.footer {
+    height: 20vh;
+    background-color: #9BABB8;
+    margin-top: -20px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 10vh;
+    align-items: center;
+    width: 90%;
+}
+
+.nav-footer > .nav-item > a{
+    text-decoration: none;
+    color: #102C57;
+    font-size: 20px;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+
+.nav-footer > .nav-item > a:hover {
+    color: white;
+}
+
+.footer > .text {
+    font-size: 22px;
+    text-align: center;
+}
