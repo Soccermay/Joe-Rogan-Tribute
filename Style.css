@@ -301,7 +301,7 @@ li {
 
 /* Mobile Responsiveness */
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     h1 {
         font-size: 42px;
     }
@@ -309,11 +309,11 @@ li {
     /* Section 1 */
 
     #num1 {
-        height: 33vh;
+        height: 25vh;
     }
 
     #num2 {
-        height: 60vh;
+        height: 43vh;
     }  
     
     /* Section 2 */ 
@@ -337,7 +337,7 @@ li {
     /* Section 3 */
 
     #num3 {
-        height: 132vh;
+        height: 95vh;
     }
 
     .flex {
@@ -347,7 +347,6 @@ li {
     }
 
     .flex > .flex1 {
-        height: 32vh;
         width: 60%;
     }
 
@@ -360,7 +359,6 @@ li {
     }
 
     .flex > .flex2 {
-        height: 25vh;
         width: 60%;
     }
 
@@ -384,11 +382,11 @@ li {
     /* Section 4 */
 
     #num4 {
-        height: 255vh;
+        height: 185vh;
     }
 
     #num4 > h4 {
-        height: 12vh;
+        height: 9vh;
         font-size: 23px;
         width: 80%;
         text-align: center;
@@ -398,10 +396,12 @@ li {
 
     .all-heroes > .span1 {
         font-size: 19px;
+        margin: 10px;
     }
 
     .all-heroes > .hero-1 {
-        height: 65vh;
+        margin: 25px;
+        height: 48vh;
         transform: none;
     }
 
@@ -430,13 +430,13 @@ li {
     }
 
     .all-heroes > .hero-2 {
-        height: 60vh;
+        height: 40vh;
         transform: none;
     }
 
     .hero-2 > .Normand {
-        height: 210px;
-        width: 370px;
+        height: 200px;
+        width: 350px;
         margin: -10px;
     }
 
@@ -455,6 +455,8 @@ li {
 
     .all-heroes > .span3 {
         font-size: 17.5px;
+        display: block;
+        margin: 15px;
     }
 
     .all-heroes > .hero-3 {
@@ -463,8 +465,9 @@ li {
     }
 
     .hero-3 > .Shaffir {
-        height: 210px;
-        width: 370px;
+        margin: -20px;
+        height: 200px;
+        width: 350px;
     }
 
     .hero-3 > .Ari {
