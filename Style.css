@@ -35,7 +35,7 @@ h1 {
 
 #num2 {
     background-color: #FEECE2;
-    height: 150vh;
+    height: 100vh;
 }
 
 .Joe {
@@ -297,7 +297,7 @@ li {
 .footer > .text {
     font-size: 22px;
     text-align: center;
-}
+} 
 
 /* Mobile Responsiveness */
 
