@@ -282,11 +282,11 @@ li {
     width: 90%;
 }
 
-.nav-footer > .nav-item > a{
+.nav-footer > .nav-item > a {
     text-decoration: none;
     color: #102C57;
     font-size: 20px;
-    margin: 10px 10px;
+    margin: 10px 20px;
     font-weight: 600;
 }
 
@@ -297,11 +297,11 @@ li {
 .footer > .text {
     font-size: 22px;
     text-align: center;
-} 
+}
 
 /* Mobile Responsiveness */
 
-@media (max-width:600px) {
+@media (max-width:800px) {
     h1 {
         font-size: 42px;
     }
@@ -313,7 +313,7 @@ li {
     }
 
     #num2 {
-        height: 43vh;
+        height: 47vh;
     }  
     
     /* Section 2 */ 
@@ -337,7 +337,7 @@ li {
     /* Section 3 */
 
     #num3 {
-        height: 95vh;
+        height: 100vh;
     }
 
     .flex {
@@ -382,7 +382,7 @@ li {
     /* Section 4 */
 
     #num4 {
-        height: 185vh;
+        height: 195vh;
     }
 
     #num4 > h4 {
@@ -401,7 +401,7 @@ li {
 
     .all-heroes > .hero-1 {
         margin: 25px;
-        height: 48vh;
+        height: 51vh;
         transform: none;
     }
 
